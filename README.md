@@ -28,13 +28,17 @@ From the dataset, we will analysis and build a model to predict if a given set o
 
 The following non-linear algorithms will be used, namely: Classification and Regression Trees (CART), Linear Support Vector Machines (SVM), Gaussian Naive Bayes (NB) and k-Nearest Neighbors (KNN).
 
-Classification and Regression Trees (CART): CART are commonly used in data mining with the objective of creating a model that predicts the value of a target (or dependent variable) based on the values of several input (or independent variables).
+### Classification and Regression Trees (CART)
+CART are commonly used in data mining with the objective of creating a model that predicts the value of a target (or dependent variable) based on the values of several input (or independent variables).
 
-Linear Support Vector Machines (SVM): SVM divides the data into two classes by a line, if the margin is more it means classes are better separated, and if there are more than two classes the line is replaced  by a hyperplane. 
+### Linear Support Vector Machines (SVM)
+SVM divides the data into two classes by a line, if the margin is more it means classes are better separated, and if there are more than two classes the line is replaced  by a hyperplane. 
 
-Gaussian Naive Bayes (NB): A Gaussian Naive Bayes algorithm is a special type of NB algorithm. It’s specifically used when the features have continuous values. It’s also assumed that all the features are following a gaussian distribution i.e, normal distribution
+### Gaussian Naive Bayes (NB)
+A Gaussian Naive Bayes algorithm is a special type of NB algorithm. It’s specifically used when the features have continuous values. It’s also assumed that all the features are following a gaussian distribution i.e, normal distribution
 
- k-Nearest Neighbors (KNN): K-nearest neighbors (KNN) is a type of supervised learning algorithm used for both regression and classification. KNN tries to predict the correct class for the test data by calculating the distance between the test data and all the training points.
+### k-Nearest Neighbors (KNN)
+ K-nearest neighbors (KNN) is a type of supervised learning algorithm used for both regression and classification. KNN tries to predict the correct class for the test data by calculating the distance between the test data and all the training points.
  
  
  Since, after standardizing the data and Comparing the algorithm ,SVM was giving better performance. Wr prepared the model using SVM and attained the accuracy of more than 95%.
