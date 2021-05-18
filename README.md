@@ -12,7 +12,7 @@ We are using the Breast Cancer Wisconsin (Diagnostic) Database, we can create a 
 
 # Dataset Used
 
-The dataset we used is given in the URL below:
+The dataset we used is given in the URL:
 https://www.kaggle.com/syedadaraqshan/breast-cancer-prediciton-using-machine-learning
 
 ## Objective
